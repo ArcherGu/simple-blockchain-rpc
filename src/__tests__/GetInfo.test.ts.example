@@ -1,0 +1,12 @@
+import { Client } from '../index'
+test('RPC Method: GetInfo', () => {
+    const testClient = new Client({
+        rpchost: 'Your RPC Host',
+        rpcport: Your RPC Port,
+        rpcuser: 'Your RPC Username',
+        rpcpassword: 'Your RPC Password',
+    })
+    testClient.call('getinfo', []).then(result => {
+        expect(result.version).toBe(Right Wallet Version)
+    })
+})

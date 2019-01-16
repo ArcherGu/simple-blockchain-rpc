@@ -1,3 +1,1 @@
-export const Greeter = (name: string) => {
-    return `Hello ${name}`
-}
+export * from './client'

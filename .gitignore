@@ -81,3 +81,6 @@ typings/
 
 # Compilation file
 /lib
+
+# Test Examples
+/test_example

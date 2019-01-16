@@ -11,7 +11,7 @@
     "build": "tsc",
     "format": "prettier --write \"src/**/*.ts\" \"src/**/*.js\"",
     "lint": "tslint -p tsconfig.json",
-    "cm": "git-cz",
+    "commit": "git-cz",
     "prepare": "npm run build",
     "prepublishOnly": "npm test && npm run lint",
     "preversion": "npm run lint",
@@ -33,5 +33,9 @@
     "tslint": "^5.12.0",
     "tslint-config-prettier": "^1.17.0",
     "typescript": "^3.2.2"
+  },
+  "dependencies": {
+    "@types/request-promise-native": "^1.0.15",
+    "request": "^2.88.0"
   }
 }
