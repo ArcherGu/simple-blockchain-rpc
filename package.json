@@ -1,7 +1,7 @@
 {
-  "name": "blockchain-rpc",
+  "name": "simple-blockchain-rpc",
   "version": "1.0.0",
-  "description": "",
+  "description": "A simple blockchain wallet rpc package",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
   "scripts": {
