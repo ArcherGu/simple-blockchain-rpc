@@ -1,4 +1,3 @@
-// import JsonRpc = require('./rpc')
 import JsonRpcRequest from './rpc'
 
 interface IRPCOptions {
