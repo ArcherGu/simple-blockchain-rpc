@@ -1,7 +1,11 @@
 # Simple Blockchain RPC
-> For Bitcoin Core Wallet
 
 There are actually a lot of similar packages, but I always think they are too complicated. Maybe a small and simple core package will be more suitable for those original projects.
+
+## Install
+```
+npm i simple-blockchain-rpc
+```
 
 ## Quick Start
 
@@ -15,10 +19,11 @@ const rpcClient = new Client({
     rpcpassword: 'Your rpc password',
 })
 
-rpcClient.call('getinfo', []).then(result => {
+rpcClient.call('getblockhash', [100]).then(result => {
     console.log(result)
 })
 ```
+
 ## License
 
 The code in this project is licensed under MIT license.
